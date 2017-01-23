@@ -78,10 +78,13 @@ Trips = [\"][\"][\"]
 [\)] {System.out.println(yyline + " RPAREN " + yytext());}
 [\[] {System.out.println(yyline + " LBRACE " + yytext());}
 [\]] {System.out.println(yyline + " RBRACE " + yytext());}
+[\{] {System.out.println(yyline + " LBRACKET " + yytext());}
+[\}] {System.out.println(yyline + " RBRACKET " + yytext());}
 [,] {System.out.println(yyline + " COMMA " + yytext());}
 [;] {System.out.println(yyline + " SEMICOLON " + yytext());}
 [.] {System.out.println(yyline + " DOT " + yytext());}
 [:] {System.out.println(yyline + " COLON " + yytext());}
+<YYINITIAL> "=" {System.out.println(yyline + " EQUALS " + yytext());}
 <YYINITIAL> "==" {System.out.println(yyline + " EQUALS " + yytext());}
 <YYINITIAL> "<=" {System.out.println(yyline + " ATMOST " + yytext());}
 <YYINITIAL> "<" {System.out.println(yyline + " LESS " + yytext());}
