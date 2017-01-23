@@ -1,7 +1,7 @@
 CUPHOME = ./lib
 CUP = java -cp $(CUPHOME)/java-cup-11b.jar java_cup.Main 
 CUPLIB = ./lib/java-cup-11b-runtime.jar
-JFLEX = jflex
+JFLEX = ./tools/jflex-1.6.1/bin/jflex
 
 LIBS = $(CUPLIB)
 
