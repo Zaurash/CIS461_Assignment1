@@ -1,5 +1,32 @@
-abc
+class
+def
+extends
+if
+elif
+else
+while
+return
+String
+Integer
+Obj
+Boolean
+true
+false
+and
+or
+not
+Nothing
+none
+==, < =, <, >=, >
+foo
+_hello
+"farewell"
 123
-do re me
-cat,,.
-Do
+3 2 4
+//Hublah
+/* this is a test */
+/* fjaklsd;f
+afsdf fdj */
+"greetings"
+"""trips"""
+"test \n \0"
