@@ -1,0 +1,5 @@
+[DEFAULT]
+name =  Zachary Jones
+host =  ix.cs.uoregon.edu
+path = /home/faculty/michal/public
+repo = https://github.com/Zaurash/CIS461_Assignment1.git
