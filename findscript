@@ -1,0 +1,13 @@
+#! /bin/bash
+#
+#  Run the scanner as a java program
+#
+locality=`pwd`
+cat >scanner <<EOF
+
+#1 /bin/bash
+java -cp .:.${locality} scanner_driver $1
+EOF
+chmod a+x scanner
+
+./scanner
